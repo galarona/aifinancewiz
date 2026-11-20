@@ -135,3 +135,26 @@ nav {
 nav a {
   margin: 0 12px;
 }
+
+.hero {
+  margin-bottom: 32px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.promo {
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--accent-2);
+  border-left: 3px solid var(--accent);
+  padding-left: 20px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
